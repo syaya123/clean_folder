@@ -1,9 +1,9 @@
 from pathlib import Path
 import shutil
 import sys
-import sort as parser
-from normalize import normalize
-from sort import sort_trash
+from clean_folder import sort as parser
+from clean_folder.normalize import normalize
+from clean_folder.sort import sort_trash
 
 
 def handle_known(filename: Path, target_folder: Path):
